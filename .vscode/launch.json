@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "PowerShell: Launch Current File",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "-Path", "C:\\Users\\SairamSatya\\Documents\\Dlux-Aprimo-Powershell\\AprimoHotFolderService\\resources\\assets",
+                "-ActionOnSuccess", "Nothing"
+            ]
+        }
+    ]
+}

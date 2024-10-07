@@ -8,8 +8,11 @@
             "script": "${file}",
             "cwd": "${workspaceFolder}",
             "args": [
-                "-Path", "C:\\Users\\SairamSatya\\Documents\\Dlux-Aprimo-Powershell\\AprimoHotFolderService\\resources\\assets",
-                "-ActionOnSuccess", "Nothing"
+                "-Path", "${workspaceFolder}\\AprimoHotFolderService\\resources\\assets",
+                "-ActionOnSuccess", "Nothing",
+                "-Classification", "23a08ef1-cf0d-4ec3-9efa-b20200551d3c",
+                "-MetaDataSchema", "dluxPocSchema",
+                "-MetaDataFile", "${workspaceFolder}\\AprimoHotFolderService\\resources\\inputs\\metadata.csv"
             ]
         }
     ]
